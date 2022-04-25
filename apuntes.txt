@@ -1,0 +1,62 @@
+Modulo Programación Orientada a Objetos
+
+***Clase 1 Lo que aprenderás sobre programación orientada a objetos y algoritmos con Python***
+
+***Clase 2 Programación Orientada a Objetos***
+
+***Clase 3 Tipos de datos abstractos y clases, Instancias***
+
+***Clase 4 Decomposición***
+
+***Clase 5 Abstracción***
+
+***Clase 6 Funciones: base de los decoradores***
+
+***Clase 7 Setters, getters y decorador property***
+
+***Clase 8 Encapsulación, getters and setters***
+
+***Clase 9 Herencia***
+
+***Clase 10 Polimorfismo***
+
+Módulo Complejidad algorítmica
+
+***Clase 11 Introducción a la complejidad algorítmica***
+
+***Clase 12 Conteo abstracto de operación***
+
+***Clase 13 Notación asintótica***
+
+***Clase 14 Clases de complejidad algorítmica***
+
+Módulo Algoritmos de búsqueda y ordenación
+
+***Clase 15 Búsqueda lineal***
+
+***Clase 16 Búsqueda binaria***
+
+***Clase 17 Ordenamiento de burbuja***
+
+***Clase 18 Ordenamiento por inserción***
+
+***Clase 19 Ordenamiento por mezcla***
+
+Módulo Ambientes virtuales
+
+***Clase 20 Ambientes virtuales***
+
+
+Módulo Graficado
+
+***Clase 21 ¿Por qué graficar?***
+
+***Clase 22 Graficado simple***
+
+Módulo Algoritmos de optimización
+
+***Clase 23 Introducción a la optimización***
+
+***Clase 24 El problema del morral***
+
+***Clase 25 Conclusiones***
