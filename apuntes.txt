@@ -1,6 +1,12 @@
 Modulo Programación Orientada a Objetos
 
 ***Clase 1 Lo que aprenderás sobre programación orientada a objetos y algoritmos con Python***
+Objetivos
+
+- Entender cómo funciona la programación orientada a objetos
+- Entender como medir la eficiencia temporal y espacial de nuestros algoritmos
+- Entender cómo y por qué graficar
+- Aprender a resolver problemas de búsqueda, ordenación y optimización
 
 ***Clase 2 Programación Orientada a Objetos***
 
