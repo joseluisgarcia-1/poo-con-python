@@ -97,7 +97,6 @@ Ahora que ya sabemos qué son las clases y cómo las podemos utilizar en nuestro
     - Se pueden tener atributos privados, por convención comienzan con _
         - En algunos lenguajes se usa el keyword private para colocar como privado ese atributo
     
-
 Datos abstractos o abstracción:
 
 - Ventajas:
@@ -134,6 +133,17 @@ se le pasan si se quiere otros métodos y, luego tenemos las expresiones de esa 
 - instancia es lo que esta dentro de un método, después de self. Ejm.: (self, otra_coordenada).
 
 ***Clase 4 Decomposición***
+
+- Partir un problema en problemas más pequeños
+- Las clases permiten crear mayores abstracciones en forma de componentes
+- Cada clase se encarga de una parte del problema y el programa se vuelve más fácil de mantener
+
+- Cuando por ejemplo le pasamos a una función un parametro con valor ya asignado por así decirlo a este tipo de parámetro se le llama
+default keyword o parámetro por defecto:
+por ejemplo:
+    - tipo="gasolina"
+        def __init__(self, cilindros, tipo="gasolina"):
+y aunque sea por defecto significa que si queremos lo específicamos, si no, no
 
 ***Clase 5 Abstracción***
 
