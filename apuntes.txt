@@ -85,7 +85,18 @@ Ahora que ya sabemos qué son las clases y cómo las podemos utilizar en nuestro
 
 ***Clase 3 Tipos de datos abstractos y clases, Instancias***
 
+- el constructor de python es: __init__
 - en python cuando pierde las referencias, es decir, nadie está usando ese código por así decirlo el garbage collector lo elimina dentro de memoria
+- Aunque en python no existe 
+- Instancias:
+    - Los atributos de clase nos permiten:
+        - Representar datos
+        - Procedimientos para interactuar con los mismos (métodos)
+        - Mecanismos para esconder la representación interna
+    - Se accede a los atributos con la notación de punto
+    - Se pueden tener atributos privados, por convención comienzan con _
+        - En algunos lenguajes se usa el keyword private para colocar como privado ese atributo
+    
 
 Datos abstractos o abstracción:
 
