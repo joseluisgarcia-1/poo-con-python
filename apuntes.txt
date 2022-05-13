@@ -100,7 +100,7 @@ Ahora que ya sabemos qué son las clases y cómo las podemos utilizar en nuestro
 Datos abstractos o abstracción:
 
 - Ventajas:
-    - Descomposición
+    - Decomposición
     - Abstracción
     - Encapsulación
 
@@ -108,9 +108,10 @@ Datos abstractos o abstracción:
     - Representación de datos y forma de interactuar con ellos
 
 - Formas de interactuar con un objeto:
-    - Creación
-    - Manipulación
-    - Destrucción
+    - Creación - Crear
+    - Manipulación - Manipular
+    - Destrucción - Destruir
+
 así se generan este tipo de datos abstractos:
 usamos el keyword class que nos permite definir los tipos de datos abstractos luego se le da el nombre de la clase y en ocasiones se recibe una súper clase
 después usamos el método def __init__ que se le conoce como constructor, en python siempre los metodos dentro de una clase empiezan con el primer parámetro que le llamamos self
@@ -146,6 +147,15 @@ por ejemplo:
 y aunque sea por defecto significa que si queremos lo específicamos, si no, no
 
 ***Clase 5 Abstracción***
+
+Esto lo leí en internet y lo que entendí de la abstracción es:
+    Es una clase abstracta sobre la cual no se pueden crear modelos concretos, y con esta no se pueden instanciar objetos, de todos modos, 
+    tiene características específicas y funcionalidades de objeto con lo cual se puede distinguir del resto de tipos de objetos 
+
+- Enfocarnos en la información relevante
+- Separar la información central de los detalles secundarios
+    - Separa la información relevante de la no relevante
+- Podemos utilizar variables y métodos(privados o públicos)
 
 ***Clase 6 Funciones: base de los decoradores***
 
