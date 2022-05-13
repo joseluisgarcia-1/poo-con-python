@@ -17,7 +17,8 @@ Las clases se pueden utilizar de diversas maneras. Pero en este artículo hablar
 La clave para entender la programación orientada a objetos es pensar en objetos como agrupaciones de datos y los métodos que operan en dichos datos.
 
 Por ejemplo, podemos representar a una persona con propiedades como nombre, edad, género, etc. y los comportamientos de dicha persona como caminar, cantar, comer, etc. 
-De la misma manera podemos representar unos audífonos con propiedades como su marca, tamaño, color, etc. y sus comportamientos como reproducir música, pausar y avanzar a la siguiente canción.
+De la misma manera podemos representar unos audífonos con propiedades como su marca, tamaño, color, etc. y sus comportamientos 
+como reproducir música, pausar y avanzar a la siguiente canción.
 
 Puesto de otra manera, la programación orientada a objetos nos permite modelar cosas reales y concretas del mundo y sus relaciones con otros objetos.
 
@@ -28,7 +29,9 @@ Pero no fue hasta la llegada de Java y C++ que la idea consiguió un número imp
 
 Hasta ahora, en el curso previo de esta serie hemos utilizado programación orientada a objetos de manera implícita. 
 Cuando decimos “Los objetos son las principales cosas que un programa de Python manipula. 
-Cada objeto tiene un tipo que define qué cosas puede realizar un programa con dicho objeto,” nos estamos refiriendo a las ideas principales de la programación orientada a objetos. 
+Cada objeto tiene un tipo que define qué cosas puede realizar un programa con dicho objeto,” nos estamos refiriendo a las ideas principales de la programación 
+orientada a objetos. 
+
 Hemos utilizado los tipos lista y diccionario, entre muchos otros, así como los métodos asociados a dichos tipos.
 
 Así como los creadores de un lenguaje de programación solo pueden diseñar una fracción muy pequeña de todas las funciones útiles (como abs, float, type, etc.), 
@@ -80,7 +83,8 @@ hotel = Hotel(numero_maximo_de_huespedes=50, lugares_de_estacionamiento=20)
 print(hotel.lugares_de_estacionamiento) # 20
 Métodos de instancia
 Mientras que los atributos de la instancia describen lo que representa el objeto, los métodos de instancia nos indican qué podemos hacer con las instancias
-de dicha clase y normalmente operan en los mencionados atributos. Los métodos son equivalentes a funciones dentro de la definición de la clase, pero todos reciben self como primer argumento.
+de dicha clase y normalmente operan en los mencionados atributos. Los métodos son equivalentes a funciones dentro de la definición de la clase, pero todos reciben 
+self como primer argumento.
 
 class Hotel:
 
@@ -133,8 +137,8 @@ Datos abstractos o abstracción:
 
 así se generan este tipo de datos abstractos:
 usamos el keyword class que nos permite definir los tipos de datos abstractos luego se le da el nombre de la clase y en ocasiones se recibe una súper clase
-después usamos el método def __init__ que se le conoce como constructor, en python siempre los metodos dentro de una clase empiezan con el primer parámetro que le llamamos self
-se le pasan si se quiere otros métodos y, luego tenemos las expresiones de esa función o método
+después usamos el método def __init__ que se le conoce como constructor, en python siempre los metodos dentro de una clase empiezan con el primer parámetro que le llamamos 
+self, se le pasan si se quiere otros métodos y, luego tenemos las expresiones de esa función o método
 - las funciones que están dentro de las clases se convierten o se les pasa a llamar métodos
 - el constructor es el primer método que se ejecuta cuándo se instancia una clase
 - las variables son nombres que apuntan a memoria
@@ -184,7 +188,8 @@ sobre todo en cuanto a funciones al momento de profundizar e implementarlas.
 Los decoradores son una forma sencilla de llamar funciones de orden mayor, es decir, funciones que toman otra función como parámetro 
 y/o retornan otra función como resultado. De esta forma un decorador añade capacidades a una función sin modificarla.
 
-Un ejemplo de esto son las llantas de un automóvil. Si les colocas cadenas para la nieve, el automóvil aún puede andar y además extiende su funcionalidad para conducirse en otros terrenos.
+Un ejemplo de esto son las llantas de un automóvil. Si les colocas cadenas para la nieve, el automóvil aún puede andar y además extiende su funcionalidad 
+para conducirse en otros terrenos.
 
 Recordando sobre funciones
 Antes de abordar el tema de decoradores haremos un pequeño repaso por las funciones, las cuales retornan un valor ante la entrada de un argumento.
@@ -220,7 +225,8 @@ ser más compleja de predecir, ya que toma otra función como entrada. Veamos qu
 
 >>> consume_funciones(estudiemos_juntos)
 '¡Hey David, aprendamos Python!'
-Pongamos atención en cómo la función consume_funciones() se escribe con paréntesis para ser ejecutada, mientras que la función presentarse y estudiemos_juntos solo hace referencia a estas.
+Pongamos atención en cómo la función consume_funciones() se escribe con paréntesis para ser ejecutada, mientras que la función presentarse y estudiemos_juntos solo hace
+referencia a estas.
 
 Funciones anidadas
 Al igual que los condicionales y bucles también puedes colocar funciones dentro de otra función.
@@ -247,7 +253,8 @@ Algunas librerías de Python son: Scikit-learn, NumPy y TensorFlow.
 Debemos considerar que las funciones anidadas dentro de funcion_mayor no se ejecutan hasta que se llama a esta primera, siendo muestra del scope o alcance de las funciones. 
 Si las llamamos obtendremos un error
 
-En la siguiente lectura entraremos al concepto de decoradores, setters y getters, pues al entender mejor las funciones será más fácil asimilar su uso en la implementación del encapsulamiento.
+En la siguiente lectura entraremos al concepto de decoradores, setters y getters, pues al entender mejor las funciones será más fácil asimilar su uso en la implementación
+del encapsulamiento.
 
 ***Clase 7 Setters, getters y decorador property***
 
@@ -328,7 +335,8 @@ avion.distancia = 200
 >>> print(avion.convertir_a_kilometros())
 321.8688
 Utilizando getters y setters
-Incluyamos un par de métodos para obtener la distancia y otro para que no acepte valores inferiores a cero, pues no tendría sentido que un vehículo recorra una distancia negativa. 
+Incluyamos un par de métodos para obtener la distancia y otro para que no acepte valores inferiores a cero, pues no tendría sentido que un vehículo recorra una distancia 
+negativa. 
 Estos son métodos getters y setters:
 
 class Millas:
@@ -400,8 +408,7 @@ propiedad de objeto que ayuda a mantener el acceso de forma privada.
 
 Decorador @property
 Este decorador es uno de varios con los que ya cuenta Python, el cual nos permite utilizar getters y setters para hacer más fácil la implementación de la programación orientada
-a objetos en Python cambiando 
-los métodos o atributos de las clases de forma que no modifiquemos el código.
+a objetos en Python cambiando los métodos o atributos de las clases de forma que no modifiquemos el código.
 
 Pero mejor veamos un ejemplo en acción:
 
@@ -451,9 +458,9 @@ la encapsulación tiene que ver también con algo que le llaman programación de
 - Permite compartir comportamiento común en la jerarquía
 - Al padre se le conoce como superclase y al hijo como subclase
 
-Un aspecto importantísimo de la Herencia es la posibilidad de reutilizar código. La reutilización es uno de los pilares de la POO, de manera que evitemos reinventar la rueda cada vez. 
-Si tenemos un comportamiento que es común entre una serie de objetos de la misma categoría, este comportamiento debe enviarse a un clase superior que permita compartirlo con sus clases hijas. 
-Esto facilita la mantenibilidad del código haciéndolo más estable.
+Un aspecto importantísimo de la Herencia es la posibilidad de reutilizar código. La reutilización es uno de los pilares de la POO, de manera que evitemos reinventar la rueda
+cada vez. Si tenemos un comportamiento que es común entre una serie de objetos de la misma categoría, este comportamiento debe enviarse a un clase superior que permita 
+compartirlo con sus clases hijas. Esto facilita la mantenibilidad del código haciéndolo más estable.
 
 ***Clase 10 Polimorfismo***
 
