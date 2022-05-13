@@ -399,6 +399,11 @@ De esta manera usamos el decorador @property para utilizar getters y setters de 
 
 ***Clase 8 Encapsulación, getters and setters***
 
+- Permite agrupar datos y su comportamiento
+- Controla el acceso a dichos datos
+- Previene modificaciones no autorizadas
+la encapsulación tiene que ver también con algo que le llaman programación defensiva
+
 ***Clase 9 Herencia***
 
 ***Clase 10 Polimorfismo***
