@@ -462,6 +462,10 @@ Un aspecto importantísimo de la Herencia es la posibilidad de reutilizar códig
 cada vez. Si tenemos un comportamiento que es común entre una serie de objetos de la misma categoría, este comportamiento debe enviarse a un clase superior que permita 
 compartirlo con sus clases hijas. Esto facilita la mantenibilidad del código haciéndolo más estable.
 
+OJO A ESTO:
+en la clase9_herencia.py, el maestro coloca la función super() nos permite obtener una referencia directa de la súper clase,entonces cuando ejecutamos la función super()
+estamos obteniendo la referencia de la súper clase, mirar el archivo clase9_herencia.py
+
 ***Clase 10 Polimorfismo***
 
 Módulo Complejidad algorítmica
