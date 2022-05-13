@@ -468,6 +468,17 @@ estamos obteniendo la referencia de la súper clase, mirar el archivo clase9_her
 
 ***Clase 10 Polimorfismo***
 
+Herencia: copy paste
+Polimorfismo: edit copy paste
+
+- La habilidad de tomar varias formas
+- En python, nos permite cambiar el comportamiento de una superclase para adaptarlo a la subclase
+
+se aplica para realizar cualquier cambio de comportamiento y al mismo tiempo, poder compartir con toda la jerarquía de clases que se han construído
+el comportamiento deseado y así especializar las clases
+
+
+
 Módulo Complejidad algorítmica
 
 ***Clase 11 Introducción a la complejidad algorítmica***
