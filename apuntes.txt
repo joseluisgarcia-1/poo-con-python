@@ -477,12 +477,37 @@ Polimorfismo: edit copy paste
 se aplica para realizar cualquier cambio de comportamiento y al mismo tiempo, poder compartir con toda la jerarquía de clases que se han construído
 el comportamiento deseado y así especializar las clases
 
-
-
 Módulo Complejidad algorítmica
 
 ***Clase 11 Introducción a la complejidad algorítmica***
+Nos permite comparar la eficiencia entre dos algoritmos
 
+- Por qué comparamos la eficiencia de un algoritmo
+- Complejidad temporal vs complejidad espacial
+- Podemos definirla como T(n)
+- Cronometrar el tiempo en el que corre un algoritmo
+- Contar los pasos con una medida abstracta de operación
+- Contar los pasos conforme nos aproximamos al infinito
+
+El sysmódulo " " en Python proporciona una función llamada para modificar el límite de recursividad en Python. Toma un parámetro, el valor del nuevo límite 
+de recursividad. Por defecto, este valor suele ser 10 ^ 4. Si se trata de entradas grandes, puede configurarlo en 10 ^ 6 para que las entradas grandes 
+puedan manejarse sin errores. setrecursionlimit()
+
+Usando el setrecursionlimit()método, podemos aumentar el límite de recursividad y el programa se puede ejecutar sin errores incluso en entradas grandes.
+import sys 
+sys.setrecursionlimit(10**6) 
+
+Necesitamos aumentar la máxima profundidad de recursividad para resolver el problema anterior. Usamos la función setrecursionlimit() para establecer el 
+límite de recursividad. La sintaxis correcta para usar esta función es la siguiente:
+
+sys.setrecursionlimit(limit)
+
+El programa a continuación muestra cómo podemos usar este método para establecer el límite de recursividad en Python.
+Ejemplo:
+	import sys
+	sys.setrecursionlimit(5000)
+	print(sys.getrecursionlimit())
+	resultado = 5000
 ***Clase 12 Conteo abstracto de operación***
 
 ***Clase 13 Notación asintótica***
