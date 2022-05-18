@@ -18,13 +18,13 @@ def factorial_r(n):
     return n * factorial_r(n-1)
 
 if __name__ == '__main__':
-    n = 50000
+    n = 10000
     comienzo = time.time()
     factorial(n)
     final = time.time()
     print(final - comienzo)
 
     comienzo = time.time()
-    factorial_r(n)
+    factorial(n)
     final = time.time()
     print(final - comienzo)

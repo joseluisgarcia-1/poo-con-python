@@ -508,11 +508,38 @@ Ejemplo:
 	sys.setrecursionlimit(5000)
 	print(sys.getrecursionlimit())
 	resultado = 5000
+
 ***Clase 12 Conteo abstracto de operación***
+
+Rojo=función polinómica
+Azul = función lineal
+Amarillo = Función Logarítmica
+Verde = Constante.
+
+Les comparto el libro: Introducción al Cálculo de James Stewart
+PDF-> https://drive.google.com/file/d/1fH0jmaSGXBo2IPPz3gmUToWWvr869iRz/view?usp=sharing
 
 ***Clase 13 Notación asintótica***
 
+- Si tenemos un loop decimos que es un crecimiento lineal
+- Si tenemos iteración dentro de otra iteración, un loop dentro de otro loop, decimos que es un crecimiento cuadrático
+- Si decimos que tenemos una función recursiva que genera más de una llamada recursiva, es decir, genera dos o tres o cuatro llamadas recursivas
+decimos que es un crecimiento exponencial
+
+- No importan variaciones pequeñas
+- El enfoque se centra en lo que pasa conforme el tamaño del problema se acerca al infinito
+- Mejor de los casos, promedio, peor de los casos
+- Big O
+- Nada más importa el término de mayor tamaño
+
 ***Clase 14 Clases de complejidad algorítmica***
+
+- O(1) -> Constante
+- O(n) -> Lineal
+- O(log n) -> Logarítmica
+- O(n log n) -> Log lineal
+- O(n**2) -> Polinomial
+- O(2**n) -> Exponencial
 
 Módulo Algoritmos de búsqueda y ordenación
 
