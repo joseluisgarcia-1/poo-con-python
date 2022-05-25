@@ -18,5 +18,4 @@ if __name__ == '__main__':
     print(sorted(lista))
     #print(lista)
     
-    print(f'El elemento {objetivo} {"está en la lista" if encontrado else "no está en la lista"}')
-    
+    print(f'El número {objetivo} {"está en la lista" if encontrado else "no está en la lista"}')    

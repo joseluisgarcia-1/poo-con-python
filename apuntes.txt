@@ -547,8 +547,16 @@ Módulo Algoritmos de búsqueda y ordenación
 
 - Busca en todos los elementos de manera secuencial
 - ¿Cuál es el peor caso?
+- Busca encontrar una respuesta línea por línea, o se puede decir también paso por paso, elemento por elemento para dar una respuesta
 
 ***Clase 16 Búsqueda binaria***
+
+- Divide y conquista
+- El problema se divide en 2 en cada iteración
+	- Valga la aclaración se dice busqueda binaria porque se divide en 2 en cada iteración
+- ¿Cuál es el peor caso?
+
+para encontrar una respuesta parte en dos el problema
 
 ***Clase 17 Ordenamiento de burbuja***
 
