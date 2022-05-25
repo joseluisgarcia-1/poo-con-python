@@ -560,6 +560,10 @@ para encontrar una respuesta parte en dos el problema
 
 ***Clase 17 Ordenamiento de burbuja***
 
+El ordenamiento de burbuja es un algoritmo que recorre repetidamente una lista que necesita ordenarse.
+Compara elementos adyacentes y los intercambia si están en el orden incorrecto. Este procedimiento se repite
+hasta que no se requieren más intercambios, lo que indica que la lista se encuentra ordenada
+
 ***Clase 18 Ordenamiento por inserción***
 
 ***Clase 19 Ordenamiento por mezcla***

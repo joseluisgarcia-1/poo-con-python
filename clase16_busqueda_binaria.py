@@ -1,6 +1,7 @@
 import random 
 
 def busqueda_binaria(lista, inicio, fin, objetivo):
+    print(f'buscando {objetivo} entre {lista[inicio]} y {lista[fin -1]}')
     #si pasa esto quiere decir que el programa termina
     if inicio > fin:
         return False
@@ -15,7 +16,7 @@ def busqueda_binaria(lista, inicio, fin, objetivo):
         return busqueda_binaria(lista, medio + 1, fin, objetivo)
     else:
         return busqueda_binaria(lista, inicio, medio -1, objetivo)
-    
+
 if __name__ == '__main__':
     tamano_de_lista = int(input("¿De qué tamaño es la lista?: "))
     objetivo = int(input("¿Qué número quieres encontrar?: "))
