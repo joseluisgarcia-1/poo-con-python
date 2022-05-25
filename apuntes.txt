@@ -545,6 +545,9 @@ Módulo Algoritmos de búsqueda y ordenación
 
 ***Clase 15 Búsqueda lineal***
 
+- Busca en todos los elementos de manera secuencial
+- ¿Cuál es el peor caso?
+
 ***Clase 16 Búsqueda binaria***
 
 ***Clase 17 Ordenamiento de burbuja***
