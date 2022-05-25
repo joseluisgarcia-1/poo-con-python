@@ -46,7 +46,7 @@ donde el range(len(objetos)), cuenta los elementos que hay en la lista de objeto
 y los -1,-1,-1
 el primer -1 cuenta de atrás pa delante desde el último elemento de la lista hasta el primero y ese lo hace con el segundo -1
 y el tercer -1, lo que hace es indicarle al código que se devuelva de uno en uno pero de atrás para adelante
-la iteración se va a hacer por indices, por eso se pone objetos[objeto]
+la iteración se va a hacer por indices, por eso se pone if "N" in objetos[objeto]:
 """
 """
 Programa que elimina los datos repetidos de una lista, y quedan sólo los únicos
