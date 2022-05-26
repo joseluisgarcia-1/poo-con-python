@@ -716,7 +716,14 @@ Módulo Algoritmos de optimización
 
 ***Clase 23 Introducción a la optimización***
 
+- El concepto de optimización permite resolver muchos problemas de manera computacional
+- Una función objetivo que debemos maximizar o minimizar
+	- Encontrar el input que nos encuentre el output más alto o más bajo dentro de una función específica
+- Una serie de limitantes que debemos respetar
+
 ***Clase 24 El problema del morral***
+
+- 
 
 ***Clase 25 Conclusiones***
 
