@@ -662,6 +662,25 @@ Módulo Ambientes virtuales
 
 ***Clase 20 Ambientes virtuales***
 
+- Permiten aislar el ambiente para poder instalar diversas versiones de paquetes
+- A partir de python 3 se incluye en la librería estandar el módulo venv
+- Ningún ingeniero profesional de Python trabaja sin ellos
+
+Una practica muy útil es crear un archivo con el nombre de requirements.txt y colocar los paquetes que necesitemos uno debajo del otro
+
+Tambien puedes congelar todos los paquetes instalados del proyecto dentro de un 
+archivo.txt, por ejemplo si ejecutas el siguiente comando creas automáticamente dentro de tu 
+venv el archivo.txt, dentro esta el detalle de los paquetes instalados y las versiones necesarias para tu proyecto:
+pip freeze > requirements.txt
+
+Windows:
+
+0.- Entras a CMD.
+1.- Entras a tu carpeta con el comando cd.
+2.- Ingresa el comando “py -m pip install virtualenv”.
+3.- Pones el comando py -m venv nombre_de_tu_espacio_virtual".
+4.- Colocas "nombre_de_tu_espacio_virtual\Scripts\activate"
+5.- Por último, tipeas “pip install nombre_de_librería” en este caso, el nombre de la librería que queremos en “bokeh”.
 
 Módulo Graficado
 
