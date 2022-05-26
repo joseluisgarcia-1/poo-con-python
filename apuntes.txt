@@ -662,6 +662,8 @@ Módulo Ambientes virtuales
 
 ***Clase 20 Ambientes virtuales***
 
+Procurar siempre instalar paquetes en entornos virtuales y no de manera global
+
 para activar el entorno en Windows:
 environment\Scripts\activate
 
@@ -700,7 +702,15 @@ Módulo Graficado
 
 ***Clase 21 ¿Por qué graficar?***
 
+- Reconocimiento de patrones
+- Predicción de una serie
+- Simplifica la interceptación y las conclusiones acerca de los datos
+
 ***Clase 22 Graficado simple***
+
+- Bokeh permite construir gráficas complejas de manera rápida y con comandos simples
+- Permite exportar a varios formatos como html, notebooks, imagenes, etc.
+- Bokeh se puede usar en el servidor tanto con Django como con Flask
 
 Módulo Algoritmos de optimización
 
@@ -709,3 +719,8 @@ Módulo Algoritmos de optimización
 ***Clase 24 El problema del morral***
 
 ***Clase 25 Conclusiones***
+
+IMPORTANTE:
+
+Seguir los retos que hay en este enlace, muy buenos
+https://www.youtube.com/watch?v=GCUp6Pegq9g&list=PLh7JzoyIyU4ItkCzTywNPhEQRHwNHj6BJ&index=5
