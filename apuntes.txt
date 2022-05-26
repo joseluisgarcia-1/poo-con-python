@@ -662,6 +662,20 @@ Módulo Ambientes virtuales
 
 ***Clase 20 Ambientes virtuales***
 
+para activar el entorno en Windows:
+environment\Scripts\activate
+
+para solucionar este error: 
+ModuleNotFoundError: No module named 'pip'
+fue con el siguiente comando, eso si, en windows
+	- python -m ensurepip
+
+Para crear un ambiente es con el siguiente código:
+
+python -m venv environment
+
+donde environment es el nombre del ambiente virtual y venv es el comando integrado que permite crear el entorno virtual
+
 - Permiten aislar el ambiente para poder instalar diversas versiones de paquetes
 - A partir de python 3 se incluye en la librería estandar el módulo venv
 - Ningún ingeniero profesional de Python trabaja sin ellos
