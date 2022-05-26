@@ -655,6 +655,9 @@ def ordenamiento_por_insercion(lista):
 
 ***Clase 19 Ordenamiento por mezcla***
 
+El ordenamiento por mezcla es un algoritmo de divide y conquista. Primero divide una lista en partes iguales
+hasta que quedan sublistas de 1 ó 0 elementos. Luego las recombina en forma ordenada
+
 Módulo Ambientes virtuales
 
 ***Clase 20 Ambientes virtuales***
