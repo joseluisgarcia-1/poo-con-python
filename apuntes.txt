@@ -540,7 +540,7 @@ decimos que es un crecimiento exponencial
 - O(n log n) -> Log lineal
 - O(n**2) -> Polinomial
 - O(2**n) -> Exponencial
-
+ 
 Módulo Algoritmos de búsqueda y ordenación
 
 ***Clase 15 Búsqueda lineal***
