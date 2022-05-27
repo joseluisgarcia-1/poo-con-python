@@ -731,6 +731,11 @@ Módulo Algoritmos de optimización
 - Podemos medir la eficiencia de diversos algoritmos
 - Las gráficas nos permiten encontrar patrones rápidamente
 - Optimización
+- Pensamiento computacional desarrollado:
+	- Decomposición
+	- Abstracción
+	- Reconocimiento de patrones
+	- Diseño de algoritmos
 
 Sitios donde encontrar retos:
 	https://www.hackerrank.com más recomendado
