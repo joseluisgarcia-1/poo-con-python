@@ -659,10 +659,8 @@ El ordenamiento por mezcla es un algoritmo de divide y conquista. Primero divide
 hasta que quedan sublistas de 1 ó 0 elementos. Luego las recombina en forma ordenada
 
 Módulo Ambientes virtuales
-
+ 
 ***Clase 20 Ambientes virtuales***
-
-Procurar siempre instalar paquetes en entornos virtuales y no de manera global
 
 para activar el entorno en Windows:
 environment\Scripts\activate
@@ -702,24 +700,11 @@ Módulo Graficado
 
 ***Clase 21 ¿Por qué graficar?***
 
-- Reconocimiento de patrones
-- Predicción de una serie
-- Simplifica la interceptación y las conclusiones acerca de los datos
-
 ***Clase 22 Graficado simple***
-
-- Bokeh permite construir gráficas complejas de manera rápida y con comandos simples
-- Permite exportar a varios formatos como html, notebooks, imagenes, etc.
-- Bokeh se puede usar en el servidor tanto con Django como con Flask
 
 Módulo Algoritmos de optimización
 
 ***Clase 23 Introducción a la optimización***
-
-- El concepto de optimización permite resolver muchos problemas de manera computacional
-- Una función objetivo que debemos maximizar o minimizar
-	- Encontrar el input que nos encuentre el output más alto o más bajo dentro de una función específica
-- Una serie de limitantes que debemos respetar
 
 ***Clase 24 El problema del morral***
 
